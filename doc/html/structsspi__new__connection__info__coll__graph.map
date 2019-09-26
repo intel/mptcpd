@@ -1,0 +1,4 @@
+<map id="sspi_new_connection_info" name="sspi_new_connection_info">
+<area shape="rect" id="node2" href="$structmptcpd__pm.html" title="Data needed to run the path manager. " alt="" coords="47,95,138,121"/>
+<area shape="rect" id="node3" href="$structmptcpd__nm.html" title="Data needed to run the network monitor. " alt="" coords="47,5,138,32"/>
+</map>

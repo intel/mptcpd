@@ -34,7 +34,7 @@ private/config.h*
 mptcpd-*/
 *.tar.*
 core*
-doc/
+#doc/
 etc/*.conf
 lib/mptcpd.pc
 src/mptcpd

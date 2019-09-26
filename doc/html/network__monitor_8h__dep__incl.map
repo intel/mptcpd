@@ -1,0 +1,5 @@
+<map id="include/mptcpd/network_monitor.h" name="include/mptcpd/network_monitor.h">
+<area shape="rect" id="node2" href="$network__monitor_8c.html" title="mptcpd network device monitoring. " alt="" coords="5,102,152,129"/>
+<area shape="rect" id="node3" href="$sspi_8c.html" title="MPTCP single&#45;subflow&#45;per&#45;interface path manager plugin. " alt="" coords="177,95,333,136"/>
+<area shape="rect" id="node4" href="$src_2path__manager_8c.html" title="mptcpd path manager framework. " alt="" coords="357,102,494,129"/>
+</map>
