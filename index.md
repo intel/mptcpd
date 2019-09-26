@@ -1,7 +1,11 @@
 <!-- SPDX-License-Identifier: BSD-3-Clause
      Copyright (c) 2017-2019, Intel Corporation -->
 
-# Multipath TCP Daemon
+---
+title: Multipath TCP Daemon
+layout: post
+---
+
 The Multipath TCP Daemon - `mptcpd` - is a daemon for Linux based
 operating systems that performs [multipath
 TCP](https://tools.ietf.org/html/rfc6824) [path
