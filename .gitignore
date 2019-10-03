@@ -52,3 +52,4 @@ tests/*.log
 tests/*.trs
 tests/test-suite.log
 README
+_site/

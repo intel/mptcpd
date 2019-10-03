@@ -1,0 +1,6 @@
+name: Multipath TCP Daemon
+include:
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - README.md
+  - SECURITY.md
