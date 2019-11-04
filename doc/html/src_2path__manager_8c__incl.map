@@ -1,9 +1,9 @@
 <map id="src/path_manager.c" name="src/path_manager.c">
-<area shape="rect" id="node18" href="$path__manager__private_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="1582,80,1733,121"/>
-<area shape="rect" id="node19" href="$plugin_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="1757,87,1872,114"/>
-<area shape="rect" id="node25" href="$network__monitor_8h.html" title="mptcpd network device monitoring. " alt="" coords="1896,87,2072,114"/>
-<area shape="rect" id="node27" href="$src_2path__manager_8h.html" title="mptcpd user space path manager header file (internal). " alt="" coords="2096,87,2211,114"/>
-<area shape="rect" id="node28" href="$configuration_8h.html" title="Mptcpd configuration parser header. " alt="" coords="2235,87,2341,114"/>
-<area shape="rect" id="node21" href="$export_8h.html" title="mptcpd shared library symbol export/import macros. " alt="" coords="1854,169,1970,196"/>
-<area shape="rect" id="node22" href="$types_8h.html" title="mptcpd user space path manager attribute types. " alt="" coords="1717,169,1829,196"/>
+<area shape="rect" id="node18" href="$path__manager__private_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="1641,80,1791,121"/>
+<area shape="rect" id="node19" href="$plugin_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="1816,87,1931,114"/>
+<area shape="rect" id="node24" href="$network__monitor_8h.html" title="mptcpd network device monitoring. " alt="" coords="1955,87,2131,114"/>
+<area shape="rect" id="node26" href="$src_2path__manager_8h.html" title="mptcpd user space path manager header file (internal). " alt="" coords="2155,87,2269,114"/>
+<area shape="rect" id="node27" href="$configuration_8h.html" title="Mptcpd configuration parser header. " alt="" coords="2293,87,2400,114"/>
+<area shape="rect" id="node21" href="$export_8h.html" title="mptcpd shared library symbol export/import macros. " alt="" coords="1954,169,2070,196"/>
+<area shape="rect" id="node22" href="$types_8h.html" title="mptcpd user space path manager attribute types. " alt="" coords="1817,169,1929,196"/>
 </map>

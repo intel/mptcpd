@@ -1,4 +1,0 @@
-<map id="mptcpd_addr" name="mptcpd_addr">
-<area shape="rect" id="node2" href="$structmptcpd__in__addr.html" title="MPTCP/TCP address information. " alt="" coords="21,95,136,121"/>
-<area shape="rect" id="node3" href="$unionmptcpd__in__addr_1_1addr.html" title="Internet address. " alt="" coords="5,5,152,32"/>
-</map>

@@ -1,7 +1,7 @@
 <map id="lib/path_manager.c" name="lib/path_manager.c">
-<area shape="rect" id="node9" href="$include_2mptcpd_2path__manager_8h.html" title="mptcpd generic netlink commands. " alt="" coords="149,87,312,114"/>
-<area shape="rect" id="node14" href="$path__manager__private_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="1006,80,1157,121"/>
-<area shape="rect" id="node15" href="$plugin_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="336,87,451,114"/>
-<area shape="rect" id="node10" href="$export_8h.html" title="mptcpd shared library symbol export/import macros. " alt="" coords="309,169,425,196"/>
-<area shape="rect" id="node11" href="$types_8h.html" title="mptcpd user space path manager attribute types. " alt="" coords="172,169,284,196"/>
+<area shape="rect" id="node9" href="$include_2mptcpd_2path__manager_8h.html" title="mptcpd generic netlink commands. " alt="" coords="740,87,903,114"/>
+<area shape="rect" id="node13" href="$path__manager__private_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="1066,80,1217,121"/>
+<area shape="rect" id="node14" href="$plugin_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="927,87,1041,114"/>
+<area shape="rect" id="node10" href="$export_8h.html" title="mptcpd shared library symbol export/import macros. " alt="" coords="902,169,1018,196"/>
+<area shape="rect" id="node11" href="$types_8h.html" title="mptcpd user space path manager attribute types. " alt="" coords="765,169,877,196"/>
 </map>

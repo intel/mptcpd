@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>mptcpd: Mptcpd - Multipath TCP Daemon</title>
+<title>mptcpd: @c mptcpd Code Documentation</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -60,32 +60,15 @@ $(function() {
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Mptcpd - Multipath TCP Daemon </div>  </div>
+<div class="title"><code>mptcpd</code> Code Documentation </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="mptcpd_main_sec"></a>
-mptcpd</h1>
-<h2><a class="anchor" id="config_sec"></a>
-Configuration</h2>
-<dl class="section note"><dt>Note</dt><dd>Command line parameters have precedence over their configuration file counterparts.</dd></dl>
-<h1><a class="anchor" id="plugins_sec"></a>
-Writing Mptcpd Plugins</h1>
-<p>All mptcpd plugins must implement two functions with C linkage:</p>
-<div class="fragment"></div><!-- fragment --><p>Both functions must be exported from the plugin if compile- or link-time symbol hiding is enabled.</p>
-<h2><a class="anchor" id="make_path_manager"></a>
-make_path_manager()</h2>
-<p>The <code>make_path_manager()</code> function is a factory function that returns a pointer to ...</p>
-<h2><a class="anchor" id="destroy_path_manager"></a>
-destroy_path_manager()</h2>
-<p>The <code>destroy_path_manager()</code> function will be called by the mptcpd plugin framework when it no longer needs the path manager in question.</p>
-<h2><a class="anchor" id="linking"></a>
-Link-time Dependencies</h2>
-<p>Mptcpd plugins must link against the mptcpd library, <em>e.g</em>. <code>libmptcpd</code> on Unix-like platforms.</p>
-<dl class="section author"><dt>Author</dt><dd>Ossama Othman &lt;ossama.othman@intel.com&gt; </dd></dl>
+<div class="textblock"><p>The Multipath TCP Daemon - <code>mptcpd</code> - is a daemon for Linux based operating systems that performs <a href="https://tools.ietf.org/html/rfc6824">multipath TCP</a> <a href="https://tools.ietf.org/html/rfc6824#section-3.4">path management</a> related operations in the user space. It interacts with the Linux kernel through a generic netlink connection to track per-connection information (e.g. available remote addresses), available network interfaces, request new MPTCP subflows, handle requests for subflows, etc.</p>
+<dl class="section see"><dt>See also</dt><dd>Additional higher level documentation is available in the <a href="https://github.com/intel/mptcpd/wiki"><code>mptcpd</code> Wiki</a>. </dd></dl>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Sep 26 2019 09:22:25 for mptcpd by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 4 2019 09:18:11 for mptcpd by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
