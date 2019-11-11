@@ -67,14 +67,14 @@ $(function() {
 <dt><a class="anchor" id="_bug000001"></a>Member <a class="el" href="lib_2path__manager_8c.html#ad6ed2f72eb9450093dc05b2577d2ab8c">mptcpd_pm_add_subflow</a>  (struct <a class="el" href="structmptcpd__pm.html" title="Data needed to run the path manager. ">mptcpd_pm</a> *pm, mptcpd_token_t token, mptcpd_aid_t local_address_id, mptcpd_aid_t remote_address_id, struct sockaddr const *local_addr, struct sockaddr const *remote_addr, bool backup)</dt>
 <dd>The address family is required but we currently base it on the optional remote address.  </dd>
 <dt><a class="anchor" id="_bug000003"></a>Member <a class="el" href="src_2path__manager_8c.html#a23c9dc1e9f8f202101bd14c1e120565d">mptcpd_pm_create</a>  (struct <a class="el" href="structmptcpd__config.html" title="mptcpd configuration parameters ">mptcpd_config</a> const *config)</dt>
-<dd>Mptcpd plugins should only be loaded once at process start. The <code><a class="el" href="plugin_8h.html#a03753ac02788954ad49dbc43451ffb6a" title="Load mptcpd plugins. ">mptcpd_plugin_load()</a></code> function only loads the functions once, and only reloads after <code><a class="el" href="plugin_8h.html#a27dcd2d4757fbc14e237a2c979bc4da2" title="Unload mptcpd plugins. ">mptcpd_plugin_unload()</a></code> is called.  </dd>
+<dd>Mptcpd plugins should only be loaded once at process start. The <code><a class="el" href="plugin__private_8h.html#a03753ac02788954ad49dbc43451ffb6a" title="Load mptcpd plugins. ">mptcpd_plugin_load()</a></code> function only loads the functions once, and only reloads after <code><a class="el" href="plugin__private_8h.html#a27dcd2d4757fbc14e237a2c979bc4da2" title="Unload mptcpd plugins. ">mptcpd_plugin_unload()</a></code> is called.  </dd>
 <dt><a class="anchor" id="_bug000004"></a>Member <a class="el" href="src_2path__manager_8c.html#a929f256a256c3afa0d49f30744938c66">mptcpd_pm_destroy</a>  (struct <a class="el" href="structmptcpd__pm.html" title="Data needed to run the path manager. ">mptcpd_pm</a> *pm)</dt>
 <dd>Mptcpd plugins should only be unloaded once at process exit, or at least after the last <code><a class="el" href="structmptcpd__pm.html" title="Data needed to run the path manager. ">mptcpd_pm</a></code> object has been destroyed. </dd>
 </dl>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 4 2019 09:18:11 for mptcpd by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 11 2019 09:45:55 for mptcpd by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>

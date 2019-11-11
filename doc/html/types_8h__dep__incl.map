@@ -1,8 +1,9 @@
 <map id="include/mptcpd/types.h" name="include/mptcpd/types.h">
-<area shape="rect" id="node2" href="$include_2mptcpd_2path__manager_8h.html" title="mptcpd generic netlink commands. " alt="" coords="71,80,210,121"/>
-<area shape="rect" id="node5" href="$plugin_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="235,87,393,114"/>
-<area shape="rect" id="node3" href="$lib_2path__manager_8c.html" title="mptcpd generic netlink commands. " alt="" coords="5,177,137,203"/>
-<area shape="rect" id="node4" href="$sspi_8c.html" title="MPTCP single&#45;subflow&#45;per&#45;interface path manager plugin. " alt="" coords="161,169,317,211"/>
-<area shape="rect" id="node6" href="$plugin_8c.html" title="Common path manager plugin functions. " alt="" coords="341,177,425,203"/>
-<area shape="rect" id="node7" href="$src_2path__manager_8c.html" title="mptcpd path manager framework. " alt="" coords="449,177,587,203"/>
+<area shape="rect" id="node2" href="$include_2mptcpd_2path__manager_8h.html" title="mptcpd generic netlink commands. " alt="" coords="5,80,144,121"/>
+<area shape="rect" id="node5" href="$plugin_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="169,87,327,114"/>
+<area shape="rect" id="node7" href="$plugin__private_8h.html" title="mptcpd private plugin interface. " alt="" coords="351,80,499,121"/>
+<area shape="rect" id="node3" href="$lib_2path__manager_8c.html" title="mptcpd generic netlink commands. " alt="" coords="9,177,141,203"/>
+<area shape="rect" id="node4" href="$sspi_8c.html" title="MPTCP single&#45;subflow&#45;per&#45;interface path manager plugin. " alt="" coords="165,169,321,211"/>
+<area shape="rect" id="node6" href="$plugin_8c.html" title="Common path manager plugin functions. " alt="" coords="345,177,429,203"/>
+<area shape="rect" id="node8" href="$src_2path__manager_8c.html" title="mptcpd path manager framework. " alt="" coords="453,177,590,203"/>
 </map>

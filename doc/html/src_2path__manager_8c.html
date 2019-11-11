@@ -90,7 +90,7 @@ $(function() {
 <code>#include &lt;ell/timeout.h&gt;</code><br />
 <code>#include &lt;ell/util.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="path__manager__private_8h_source.html">mptcpd/path_manager_private.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="plugin_8h_source.html">mptcpd/plugin.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="plugin__private_8h_source.html">mptcpd/plugin_private.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="network__monitor_8h_source.html">mptcpd/network_monitor.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="src_2path__manager_8h_source.html">path_manager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="configuration_8h_source.html">configuration.h</a>&quot;</code><br />
@@ -99,13 +99,13 @@ Include dependency graph for path_manager.c:</div>
 <div class="dyncontent">
 <div class="center"><img src="src_2path__manager_8c__incl.png" border="0" usemap="#src_2path__manager_8c" alt=""/></div>
 <map name="src_2path__manager_8c" id="src_2path__manager_8c">
-<area shape="rect" id="node18" href="path__manager__private_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="1641,80,1791,121"/>
-<area shape="rect" id="node19" href="plugin_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="1816,87,1931,114"/>
-<area shape="rect" id="node24" href="network__monitor_8h.html" title="mptcpd network device monitoring. " alt="" coords="1955,87,2131,114"/>
-<area shape="rect" id="node26" href="src_2path__manager_8h.html" title="mptcpd user space path manager header file (internal). " alt="" coords="2155,87,2269,114"/>
-<area shape="rect" id="node27" href="configuration_8h.html" title="Mptcpd configuration parser header. " alt="" coords="2293,87,2400,114"/>
-<area shape="rect" id="node21" href="export_8h.html" title="mptcpd shared library symbol export/import macros. " alt="" coords="1954,169,2070,196"/>
-<area shape="rect" id="node22" href="types_8h.html" title="mptcpd user space path manager attribute types. " alt="" coords="1817,169,1929,196"/>
+<area shape="rect" id="node18" href="path__manager__private_8h.html" title="mptcpd path manager private interface. " alt="" coords="1641,80,1791,121"/>
+<area shape="rect" id="node19" href="plugin__private_8h.html" title="mptcpd private plugin interface. " alt="" coords="1816,87,1976,114"/>
+<area shape="rect" id="node24" href="network__monitor_8h.html" title="mptcpd network device monitoring. " alt="" coords="2000,87,2176,114"/>
+<area shape="rect" id="node26" href="src_2path__manager_8h.html" title="mptcpd user space path manager header file (internal). " alt="" coords="2200,87,2315,114"/>
+<area shape="rect" id="node27" href="configuration_8h.html" title="Mptcpd configuration parser header. " alt="" coords="2339,87,2445,114"/>
+<area shape="rect" id="node21" href="export_8h.html" title="mptcpd shared library symbol export/import macros. " alt="" coords="1977,169,2093,196"/>
+<area shape="rect" id="node22" href="types_8h.html" title="mptcpd user space path manager attribute types. " alt="" coords="1840,169,1952,196"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -225,7 +225,7 @@ Functions</h2></td></tr>
 </dl>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000034">Todo:</a></b></dt><dd>As currently implemented, one could create multiple path manager instances? Is that useful?</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to new path manager on success. <code>NULL</code> on failure. </dd></dl>
-<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000003">Bug:</a></b></dt><dd>Mptcpd plugins should only be loaded once at process start. The <code><a class="el" href="plugin_8h.html#a03753ac02788954ad49dbc43451ffb6a" title="Load mptcpd plugins. ">mptcpd_plugin_load()</a></code> function only loads the functions once, and only reloads after <code><a class="el" href="plugin_8h.html#a27dcd2d4757fbc14e237a2c979bc4da2" title="Unload mptcpd plugins. ">mptcpd_plugin_unload()</a></code> is called. </dd></dl>
+<dl class="bug"><dt><b><a class="el" href="bug.html#_bug000003">Bug:</a></b></dt><dd>Mptcpd plugins should only be loaded once at process start. The <code><a class="el" href="plugin__private_8h.html#a03753ac02788954ad49dbc43451ffb6a" title="Load mptcpd plugins. ">mptcpd_plugin_load()</a></code> function only loads the functions once, and only reloads after <code><a class="el" href="plugin__private_8h.html#a27dcd2d4757fbc14e237a2c979bc4da2" title="Unload mptcpd plugins. ">mptcpd_plugin_unload()</a></code> is called. </dd></dl>
 
 </div>
 </div>
@@ -258,7 +258,7 @@ Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 4 2019 09:18:11 for mptcpd by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 11 2019 09:45:55 for mptcpd by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.13
 </small></address>
