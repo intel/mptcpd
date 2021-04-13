@@ -1,5 +1,7 @@
 <map id="include/mptcpd/plugin.h" name="include/mptcpd/plugin.h">
-<area shape="rect" id="node2" href="$lib_2path__manager_8c.html" title="mptcpd generic netlink commands. " alt="" coords="5,87,137,114"/>
-<area shape="rect" id="node3" href="$plugin_8c.html" title="Common path manager plugin functions. " alt="" coords="161,87,245,114"/>
-<area shape="rect" id="node4" href="$sspi_8c.html" title="MPTCP single&#45;subflow&#45;per&#45;interface path manager plugin. " alt="" coords="269,80,425,121"/>
+<area shape="rect" id="node1" title="mptcpd user space path manager plugin header file." alt="" coords="212,5,391,32"/>
+<area shape="rect" id="node2" href="$lib_2path__manager_8c.html" title="mptcpd generic netlink commands." alt="" coords="5,87,152,114"/>
+<area shape="rect" id="node3" href="$plugin_8c.html" title="Common path manager plugin functions." alt="" coords="176,87,269,114"/>
+<area shape="rect" id="node4" href="$addr__adv_8c.html" title="MPTCP address advertiser path manager plugin." alt="" coords="294,80,469,121"/>
+<area shape="rect" id="node5" href="$sspi_8c.html" title="MPTCP single&#45;subflow&#45;per&#45;interface path manager plugin." alt="" coords="493,80,667,121"/>
 </map>

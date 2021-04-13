@@ -1,11 +1,19 @@
 <map id="include/mptcpd/export.h" name="include/mptcpd/export.h">
-<area shape="rect" id="node2" href="$network__monitor_8h.html" title="mptcpd network device monitoring. " alt="" coords="145,80,305,121"/>
-<area shape="rect" id="node6" href="$include_2mptcpd_2path__manager_8h.html" title="mptcpd generic netlink commands. " alt="" coords="329,80,468,121"/>
-<area shape="rect" id="node8" href="$plugin_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="493,87,651,114"/>
-<area shape="rect" id="node10" href="$plugin__private_8h.html" title="mptcpd private plugin interface. " alt="" coords="675,80,823,121"/>
-<area shape="rect" id="node3" href="$network__monitor_8c.html" title="mptcpd network device monitoring. " alt="" coords="5,177,152,203"/>
-<area shape="rect" id="node4" href="$sspi_8c.html" title="MPTCP single&#45;subflow&#45;per&#45;interface path manager plugin. " alt="" coords="177,169,333,211"/>
-<area shape="rect" id="node5" href="$src_2path__manager_8c.html" title="mptcpd path manager framework. " alt="" coords="357,177,494,203"/>
-<area shape="rect" id="node7" href="$lib_2path__manager_8c.html" title="mptcpd generic netlink commands. " alt="" coords="518,177,650,203"/>
-<area shape="rect" id="node9" href="$plugin_8c.html" title="Common path manager plugin functions. " alt="" coords="697,177,781,203"/>
+<area shape="rect" id="node1" title="mptcpd shared library symbol export/import macros." alt="" coords="699,5,879,32"/>
+<area shape="rect" id="node2" href="$addr__info_8h.html" title="mptcpd_addr_info related code." alt="" coords="202,80,357,121"/>
+<area shape="rect" id="node5" href="$id__manager_8h.html" title="Map of network address to MPTCP address ID." alt="" coords="577,87,792,114"/>
+<area shape="rect" id="node8" href="$network__monitor_8h.html" title="mptcpd network device monitoring." alt="" coords="995,80,1174,121"/>
+<area shape="rect" id="node11" href="$include_2mptcpd_2path__manager_8h.html" title="mptcpd generic netlink commands." alt="" coords="817,80,971,121"/>
+<area shape="rect" id="node13" href="$plugin_8h.html" title="mptcpd user space path manager plugin header file." alt="" coords="1395,87,1574,114"/>
+<area shape="rect" id="node15" href="$private_2id__manager_8h.html" title="Map of MPTCP address ID to network address &#45; private API." alt="" coords="381,80,553,121"/>
+<area shape="rect" id="node16" href="$private_2plugin_8h.html" title="mptcpd private plugin interface." alt="" coords="1199,80,1371,121"/>
+<area shape="rect" id="node17" href="$sockaddr_8h.html" title="mptcpd struct sockaddr related utility functions." alt="" coords="5,80,177,121"/>
+<area shape="rect" id="node3" href="$netlink__pm__upstream_8c.html" title="Upstream kernel generic netlink path manager details." alt="" coords="180,177,379,203"/>
+<area shape="rect" id="node4" href="$src_2path__manager_8c.html" title="mptcpd path manager framework." alt="" coords="610,177,759,203"/>
+<area shape="rect" id="node6" href="$id__manager_8c.html" title="Map of network address to MPTCP address ID." alt="" coords="429,177,559,203"/>
+<area shape="rect" id="node7" href="$addr__adv_8c.html" title="MPTCP address advertiser path manager plugin." alt="" coords="793,169,968,211"/>
+<area shape="rect" id="node9" href="$network__monitor_8c.html" title="mptcpd network device monitoring." alt="" coords="993,177,1155,203"/>
+<area shape="rect" id="node10" href="$sspi_8c.html" title="MPTCP single&#45;subflow&#45;per&#45;interface path manager plugin." alt="" coords="1180,169,1355,211"/>
+<area shape="rect" id="node12" href="$lib_2path__manager_8c.html" title="mptcpd generic netlink commands." alt="" coords="1379,177,1526,203"/>
+<area shape="rect" id="node14" href="$plugin_8c.html" title="Common path manager plugin functions." alt="" coords="1550,177,1643,203"/>
 </map>

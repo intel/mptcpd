@@ -1,4 +1,6 @@
 <map id="src/path_manager.h" name="src/path_manager.h">
-<area shape="rect" id="node2" href="$mptcpd_8c.html" title="Main mptcpd source file. " alt="" coords="5,80,104,107"/>
-<area shape="rect" id="node3" href="$src_2path__manager_8c.html" title="mptcpd path manager framework. " alt="" coords="129,80,266,107"/>
+<area shape="rect" id="node1" title="mptcpd user space path manager header file (internal)." alt="" coords="159,5,309,32"/>
+<area shape="rect" id="node2" href="$mptcpd_8c.html" title="Main mptcpd source file." alt="" coords="5,80,111,107"/>
+<area shape="rect" id="node3" href="$netlink__pm__upstream_8c.html" title="Upstream kernel generic netlink path manager details." alt="" coords="135,80,333,107"/>
+<area shape="rect" id="node4" href="$src_2path__manager_8c.html" title="mptcpd path manager framework." alt="" coords="357,80,506,107"/>
 </map>

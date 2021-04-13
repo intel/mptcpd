@@ -1,9 +1,17 @@
 <map id="include/mptcpd/types.h" name="include/mptcpd/types.h">
-<area shape="rect" id="node2" href="$include_2mptcpd_2path__manager_8h.html" title="mptcpd generic netlink commands. " alt="" coords="5,80,144,121"/>
-<area shape="rect" id="node5" href="$plugin_8h.html" title="mptcpd user space path manager plugin header file. " alt="" coords="169,87,327,114"/>
-<area shape="rect" id="node7" href="$plugin__private_8h.html" title="mptcpd private plugin interface. " alt="" coords="351,80,499,121"/>
-<area shape="rect" id="node3" href="$lib_2path__manager_8c.html" title="mptcpd generic netlink commands. " alt="" coords="9,177,141,203"/>
-<area shape="rect" id="node4" href="$sspi_8c.html" title="MPTCP single&#45;subflow&#45;per&#45;interface path manager plugin. " alt="" coords="165,169,321,211"/>
-<area shape="rect" id="node6" href="$plugin_8c.html" title="Common path manager plugin functions. " alt="" coords="345,177,429,203"/>
-<area shape="rect" id="node8" href="$src_2path__manager_8c.html" title="mptcpd path manager framework. " alt="" coords="453,177,590,203"/>
+<area shape="rect" id="node1" title="mptcpd user space path manager attribute types." alt="" coords="508,5,683,32"/>
+<area shape="rect" id="node2" href="$addr__info_8h.html" title="mptcpd_addr_info related code." alt="" coords="26,80,181,121"/>
+<area shape="rect" id="node3" href="$netlink__pm__upstream_8c.html" title="Upstream kernel generic netlink path manager details." alt="" coords="20,177,219,203"/>
+<area shape="rect" id="node5" href="$id__manager_8h.html" title="Map of network address to MPTCP address ID." alt="" coords="598,87,812,114"/>
+<area shape="rect" id="node8" href="$include_2mptcpd_2path__manager_8h.html" title="mptcpd generic netlink commands." alt="" coords="837,80,992,121"/>
+<area shape="rect" id="node11" href="$plugin_8h.html" title="mptcpd user space path manager plugin header file." alt="" coords="1213,87,1392,114"/>
+<area shape="rect" id="node13" href="$private_2id__manager_8h.html" title="Map of MPTCP address ID to network address &#45; private API." alt="" coords="206,80,378,121"/>
+<area shape="rect" id="node14" href="$include_2mptcpd_2private_2path__manager_8h.html" title="mptcpd path manager private interface." alt="" coords="402,80,574,121"/>
+<area shape="rect" id="node15" href="$private_2plugin_8h.html" title="mptcpd private plugin interface." alt="" coords="1016,80,1188,121"/>
+<area shape="rect" id="node4" href="$src_2path__manager_8c.html" title="mptcpd path manager framework." alt="" coords="449,177,598,203"/>
+<area shape="rect" id="node6" href="$id__manager_8c.html" title="Map of network address to MPTCP address ID." alt="" coords="243,177,372,203"/>
+<area shape="rect" id="node7" href="$addr__adv_8c.html" title="MPTCP address advertiser path manager plugin." alt="" coords="831,169,1006,211"/>
+<area shape="rect" id="node9" href="$lib_2path__manager_8c.html" title="mptcpd generic netlink commands." alt="" coords="660,177,806,203"/>
+<area shape="rect" id="node10" href="$sspi_8c.html" title="MPTCP single&#45;subflow&#45;per&#45;interface path manager plugin." alt="" coords="1044,169,1219,211"/>
+<area shape="rect" id="node12" href="$plugin_8c.html" title="Common path manager plugin functions." alt="" coords="1252,177,1345,203"/>
 </map>

@@ -1,0 +1,7 @@
+<map id="include/mptcpd/id_manager.h" name="include/mptcpd/id_manager.h">
+<area shape="rect" id="node1" title="Map of network address to MPTCP address ID." alt="" coords="37,5,252,32"/>
+<area shape="rect" id="node2" href="$export_8h.html" title="mptcpd shared library symbol export/import macros." alt="" coords="5,80,135,107"/>
+<area shape="rect" id="node3" href="$types_8h.html" title="mptcpd user space path manager attribute types." alt="" coords="159,80,282,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="130,155,205,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="229,155,316,181"/>
+</map>

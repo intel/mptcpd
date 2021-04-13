@@ -1,0 +1,8 @@
+<map id="include/mptcpd/private/plugin.h" name="include/mptcpd/private/plugin.h">
+<area shape="rect" id="node1" title="mptcpd private plugin interface." alt="" coords="91,5,263,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,88,121"/>
+<area shape="rect" id="node3" href="$export_8h.html" title="mptcpd shared library symbol export/import macros." alt="" coords="113,95,242,121"/>
+<area shape="rect" id="node4" href="$types_8h.html" title="mptcpd user space path manager attribute types." alt="" coords="267,95,389,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="237,169,312,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="337,169,423,196"/>
+</map>

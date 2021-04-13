@@ -1,0 +1,4 @@
+<map id="get_limits_user_callback" name="get_limits_user_callback">
+<area shape="rect" id="node1" title="Convenience struct for passing limits to user callback." alt="" coords="5,95,188,121"/>
+<area shape="rect" id="node2" href="$structmptcpd__limit.html" title="MPTCP resource type/limit pair." alt="" coords="43,5,151,32"/>
+</map>

@@ -1,10 +1,5 @@
 var searchData=
 [
-  ['mptcpd_5fconfig',['mptcpd_config',['../structmptcpd__config.html',1,'']]],
-  ['mptcpd_5finterface',['mptcpd_interface',['../structmptcpd__interface.html',1,'']]],
-  ['mptcpd_5finterface_5fcallback_5fdata',['mptcpd_interface_callback_data',['../structmptcpd__interface__callback__data.html',1,'']]],
-  ['mptcpd_5fnm',['mptcpd_nm',['../structmptcpd__nm.html',1,'']]],
-  ['mptcpd_5fplugin_5fops',['mptcpd_plugin_ops',['../structmptcpd__plugin__ops.html',1,'']]],
-  ['mptcpd_5fpm',['mptcpd_pm',['../structmptcpd__pm.html',1,'']]],
-  ['mptcpd_5frtm_5faddr',['mptcpd_rtm_addr',['../structmptcpd__rtm__addr.html',1,'']]]
+  ['get_5faddr_5fuser_5fcallback_201',['get_addr_user_callback',['../structget__addr__user__callback.html',1,'']]],
+  ['get_5flimits_5fuser_5fcallback_202',['get_limits_user_callback',['../structget__limits__user__callback.html',1,'']]]
 ];

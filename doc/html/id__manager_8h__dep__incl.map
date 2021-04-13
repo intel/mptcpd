@@ -1,0 +1,6 @@
+<map id="include/mptcpd/id_manager.h" name="include/mptcpd/id_manager.h">
+<area shape="rect" id="node1" title="Map of network address to MPTCP address ID." alt="" coords="139,5,353,32"/>
+<area shape="rect" id="node2" href="$id__manager_8c.html" title="Map of network address to MPTCP address ID." alt="" coords="5,87,135,114"/>
+<area shape="rect" id="node3" href="$addr__adv_8c.html" title="MPTCP address advertiser path manager plugin." alt="" coords="159,80,333,121"/>
+<area shape="rect" id="node4" href="$src_2path__manager_8c.html" title="mptcpd path manager framework." alt="" coords="358,87,507,114"/>
+</map>

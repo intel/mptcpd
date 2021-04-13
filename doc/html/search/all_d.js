@@ -1,11 +1,4 @@
 var searchData=
 [
-  ['path_5fmanager_2ec',['path_manager.c',['../lib_2path__manager_8c.html',1,'(Global Namespace)'],['../src_2path__manager_8c.html',1,'(Global Namespace)']]],
-  ['path_5fmanager_2eh',['path_manager.h',['../include_2mptcpd_2path__manager_8h.html',1,'(Global Namespace)'],['../src_2path__manager_8h.html',1,'(Global Namespace)']]],
-  ['path_5fmanager_5fprivate_2eh',['path_manager_private.h',['../path__manager__private_8h.html',1,'']]],
-  ['plugin_2ec',['plugin.c',['../plugin_8c.html',1,'']]],
-  ['plugin_2eh',['plugin.h',['../plugin_8h.html',1,'']]],
-  ['plugin_5fdir',['plugin_dir',['../structmptcpd__config.html#a44337a57088993114544751bd955bcea',1,'mptcpd_config']]],
-  ['plugin_5fprivate_2eh',['plugin_private.h',['../plugin__private_8h.html',1,'']]],
-  ['pm',['pm',['../structsspi__new__connection__info.html#a1ae49c34c3e042e19aeac03a8ad196e8',1,'sspi_new_connection_info']]]
+  ['ops_165',['ops',['../structpm__ops__info.html#a49aa67d0364f832c9cb3d8d45a1effa4',1,'pm_ops_info::ops()'],['../structnm__ops__info.html#accd1c9b280cddcbd69c471a769d1a10b',1,'nm_ops_info::ops()'],['../structmptcpd__nm.html#a2fe3d2ccae85a6fda05fddf352f251b4',1,'mptcpd_nm::ops()']]]
 ];

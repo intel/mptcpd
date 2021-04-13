@@ -1,0 +1,6 @@
+<map id="include/mptcpd/private/path_manager.h" name="include/mptcpd/private/path_manager.h">
+<area shape="rect" id="node1" title="mptcpd path manager private interface." alt="" coords="190,5,362,47"/>
+<area shape="rect" id="node2" href="$lib_2path__manager_8c.html" title="mptcpd generic netlink commands." alt="" coords="5,95,152,121"/>
+<area shape="rect" id="node3" href="$netlink__pm__upstream_8c.html" title="Upstream kernel generic netlink path manager details." alt="" coords="177,95,375,121"/>
+<area shape="rect" id="node4" href="$src_2path__manager_8c.html" title="mptcpd path manager framework." alt="" coords="399,95,548,121"/>
+</map>

@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['timeout',['timeout',['../structmptcpd__pm.html#a415489053b0eafd2b892eb6846755005',1,'mptcpd_pm']]],
-  ['token',['token',['../structsspi__new__connection__info.html#a4ad2a176dc6534efd5227e62b0978348',1,'sspi_new_connection_info']]],
-  ['tokens',['tokens',['../structsspi__interface__info.html#a78f80d071f13479f7ad84515a6a6669d',1,'sspi_interface_info']]],
-  ['type',['type',['../structmptcpd__interface.html#abe7de8ecac479cc21a4e05bcc8ceebf1',1,'mptcpd_interface']]]
+  ['ops_351',['ops',['../structpm__ops__info.html#a49aa67d0364f832c9cb3d8d45a1effa4',1,'pm_ops_info::ops()'],['../structnm__ops__info.html#accd1c9b280cddcbd69c471a769d1a10b',1,'nm_ops_info::ops()'],['../structmptcpd__nm.html#a2fe3d2ccae85a6fda05fddf352f251b4',1,'mptcpd_nm::ops()']]]
 ];

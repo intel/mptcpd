@@ -1,0 +1,10 @@
+<map id="plugin_address_info" name="plugin_address_info">
+<area shape="rect" id="node1" title="Convenience structure to bundle address information." alt="" coords="241,273,393,300"/>
+<area shape="rect" id="node2" href="$structmptcpd__pm.html" title="Data needed to run the path manager." alt="" coords="197,184,296,211"/>
+<area shape="rect" id="node3" href="$structmptcpd__nm.html" title="Data needed to run the network monitor." alt="" coords="5,95,104,121"/>
+<area shape="rect" id="node4" href="$structmptcpd__idm.html" title=" " alt="" coords="129,95,231,121"/>
+<area shape="rect" id="node5" href="$structmptcpd__config.html" title="mptcpd configuration parameters" alt="" coords="256,95,373,121"/>
+<area shape="rect" id="node6" href="$structmptcpd__netlink__pm.html" title=" " alt="" coords="398,95,549,121"/>
+<area shape="rect" id="node7" href="$structmptcpd__pm__cmd__ops.html" title="MPTCP path management generic netlink command functions." alt="" coords="391,5,555,32"/>
+<area shape="rect" id="node8" href="$structmptcpd__interface.html" title="Network interface&#45;specific information." alt="" coords="320,184,456,211"/>
+</map>

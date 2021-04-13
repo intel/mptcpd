@@ -1,0 +1,5 @@
+<map id="include/mptcpd/private/id_manager.h" name="include/mptcpd/private/id_manager.h">
+<area shape="rect" id="node1" title="Map of MPTCP address ID to network address &#45; private API." alt="" coords="65,5,237,47"/>
+<area shape="rect" id="node2" href="$id__manager_8c.html" title="Map of network address to MPTCP address ID." alt="" coords="5,95,135,121"/>
+<area shape="rect" id="node3" href="$src_2path__manager_8c.html" title="mptcpd path manager framework." alt="" coords="159,95,309,121"/>
+</map>

@@ -1,4 +1,7 @@
 <map id="include/mptcpd/path_manager.h" name="include/mptcpd/path_manager.h">
-<area shape="rect" id="node2" href="$export_8h.html" title="mptcpd shared library symbol export/import macros. " alt="" coords="5,95,121,121"/>
-<area shape="rect" id="node3" href="$types_8h.html" title="mptcpd user space path manager attribute types. " alt="" coords="146,95,258,121"/>
+<area shape="rect" id="node1" title="mptcpd generic netlink commands." alt="" coords="67,5,222,47"/>
+<area shape="rect" id="node2" href="$export_8h.html" title="mptcpd shared library symbol export/import macros." alt="" coords="5,95,135,121"/>
+<area shape="rect" id="node3" href="$types_8h.html" title="mptcpd user space path manager attribute types." alt="" coords="159,95,282,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="130,169,205,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="229,169,316,196"/>
 </map>

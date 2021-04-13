@@ -1,4 +1,11 @@
 <map id="src/mptcpd.c" name="src/mptcpd.c">
-<area shape="rect" id="node8" href="$configuration_8h.html" title="Mptcpd configuration parser header. " alt="" coords="563,80,669,107"/>
-<area shape="rect" id="node9" href="$src_2path__manager_8h.html" title="mptcpd user space path manager header file (internal). " alt="" coords="693,80,808,107"/>
+<area shape="rect" id="node1" title="Main mptcpd source file." alt="" coords="331,5,436,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,76,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,80,173,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="198,80,273,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="297,80,371,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="395,80,470,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="495,80,581,107"/>
+<area shape="rect" id="node8" href="$configuration_8h.html" title="Mptcpd configuration parser header." alt="" coords="605,80,724,107"/>
+<area shape="rect" id="node9" href="$src_2path__manager_8h.html" title="mptcpd user space path manager header file (internal)." alt="" coords="748,80,875,107"/>
 </map>

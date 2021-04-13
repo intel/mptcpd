@@ -1,4 +1,15 @@
 <map id="lib/network_monitor.c" name="lib/network_monitor.c">
-<area shape="rect" id="node12" href="$network__monitor_8h.html" title="mptcpd network device monitoring. " alt="" coords="978,80,1154,107"/>
-<area shape="rect" id="node13" href="$export_8h.html" title="mptcpd shared library symbol export/import macros. " alt="" coords="1008,155,1124,181"/>
+<area shape="rect" id="node1" title="mptcpd network device monitoring." alt="" coords="461,5,623,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,76,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,80,171,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="195,80,270,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="294,80,419,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="710,155,777,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="494,80,590,107"/>
+<area shape="rect" id="node8" title=" " alt="" coords="614,80,713,107"/>
+<area shape="rect" id="node9" title=" " alt="" coords="737,80,811,107"/>
+<area shape="rect" id="node10" title=" " alt="" coords="835,80,910,107"/>
+<area shape="rect" id="node11" title=" " alt="" coords="935,80,1029,107"/>
+<area shape="rect" id="node12" href="$network__monitor_8h.html" title="mptcpd network device monitoring." alt="" coords="1054,80,1251,107"/>
+<area shape="rect" id="node13" href="$export_8h.html" title="mptcpd shared library symbol export/import macros." alt="" coords="1088,155,1217,181"/>
 </map>

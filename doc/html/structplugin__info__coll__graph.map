@@ -1,0 +1,4 @@
+<map id="plugin_info" name="plugin_info">
+<area shape="rect" id="node1" title="Plugin information." alt="" coords="35,95,130,121"/>
+<area shape="rect" id="node2" href="$structmptcpd__plugin__desc.html" title="Plugin&#45;specific characteristics / descriptor." alt="" coords="5,5,160,32"/>
+</map>

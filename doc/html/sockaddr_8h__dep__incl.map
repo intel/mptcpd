@@ -1,0 +1,5 @@
+<map id="include/mptcpd/private/sockaddr.h" name="include/mptcpd/private/sockaddr.h">
+<area shape="rect" id="node1" title="mptcpd struct sockaddr related utility functions." alt="" coords="117,5,289,47"/>
+<area shape="rect" id="node2" href="$netlink__pm__upstream_8c.html" title="Upstream kernel generic netlink path manager details." alt="" coords="5,95,204,121"/>
+<area shape="rect" id="node3" href="$src_2path__manager_8c.html" title="mptcpd path manager framework." alt="" coords="227,95,377,121"/>
+</map>
