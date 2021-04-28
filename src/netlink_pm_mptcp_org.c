@@ -95,29 +95,6 @@ static void check_kernel_mptcp_path_manager(void)
         }
 }
 
-static uint16_t get_port_number(struct sockaddr const *addr)
-{
-        in_port_t port = 0;
-
-        if (addr == NULL)
-                return port;
-
-        if (addr->sa_family == AF_INET) {
-                struct sockaddr_in const *const addr4 =
-                        (struct sockaddr_in const*) addr;
-
-                port = addr4->sin_port;
-
-        } else if (addr->sa_family == AF_INET6) {
-                struct sockaddr_in6 const *const addr6 =
-                        (struct sockaddr_in6 const*) addr;
-
-                port = addr6->sin6_port;
-        }
-
-        return port;
-}
-
 static bool append_addr_attr(struct l_genl_msg *msg,
                              struct sockaddr const *addr,
                              bool local)
@@ -205,7 +182,7 @@ static int mptcp_org_add_addr(struct mptcpd_pm *pm,
 
         // Types chosen to match MPTCP genl API.
         uint16_t const family = mptcpd_get_addr_family(addr);
-        uint16_t const port   = get_port_number(addr);
+        uint16_t const port   = mptcpd_get_port_number(addr);
 
         /**
          * @todo Verify that this payload size calculation is
@@ -334,8 +311,8 @@ static int mptcp_org_add_subflow(struct mptcpd_pm *pm,
          *      it on the optional remote address.
          */
         uint16_t const family      = mptcpd_get_addr_family(remote_addr);
-        uint16_t const local_port  = get_port_number(local_addr);
-        uint16_t const remote_port = get_port_number(remote_addr);
+        uint16_t const local_port  = mptcpd_get_port_number(local_addr);
+        uint16_t const remote_port = mptcpd_get_port_number(remote_addr);
         // uint16_t per MPTCP genl API.
 
         /**
@@ -432,8 +409,8 @@ static int mptcp_org_set_backup(struct mptcpd_pm *pm,
          */
 
         uint16_t const family      = mptcpd_get_addr_family(local_addr);
-        uint16_t const local_port  = get_port_number(local_addr);
-        uint16_t const remote_port = get_port_number(remote_addr);
+        uint16_t const local_port  = mptcpd_get_port_number(local_addr);
+        uint16_t const remote_port = mptcpd_get_port_number(remote_addr);
         // uint16_t per MPTCP genl API.
 
         /**
@@ -515,8 +492,8 @@ static int mptcp_org_remove_subflow(struct mptcpd_pm *pm,
          */
 
         uint16_t const family      = mptcpd_get_addr_family(local_addr);
-        uint16_t const local_port  = get_port_number(local_addr);
-        uint16_t const remote_port = get_port_number(remote_addr);
+        uint16_t const local_port  = mptcpd_get_port_number(local_addr);
+        uint16_t const remote_port = mptcpd_get_port_number(remote_addr);
         // uint16_t per MPTCP genl API.
 
         /**

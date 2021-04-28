@@ -22,6 +22,29 @@
 #include "commands.h"
 
 
+uint16_t mptcpd_get_port_number(struct sockaddr const *addr)
+{
+        in_port_t port = 0;
+
+        if (addr == NULL)
+                return port;
+
+        if (addr->sa_family == AF_INET) {
+                struct sockaddr_in const *const addr4 =
+                        (struct sockaddr_in const*) addr;
+
+                port = addr4->sin_port;
+
+        } else if (addr->sa_family == AF_INET6) {
+                struct sockaddr_in6 const *const addr6 =
+                        (struct sockaddr_in6 const*) addr;
+
+                port = addr6->sin6_port;
+        }
+
+        return port;
+}
+
 bool mptcpd_check_genl_error(struct l_genl_msg *msg, char const *fname)
 {
         int const error = l_genl_msg_get_error(msg);

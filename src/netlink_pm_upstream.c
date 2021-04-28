@@ -375,7 +375,7 @@ static int upstream_add_addr(struct mptcpd_pm *pm,
 
         // Types chosen to match MPTCP genl API.
         uint16_t const family = mptcpd_get_addr_family(addr);
-        uint16_t const port   = get_port_number(addr);
+        uint16_t const port   = mptcpd_get_port_number(addr);
 
         /*
           The MPTCP_PM_ADDR_FLAG_SIGNAL flag is required when a port
