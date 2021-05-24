@@ -367,6 +367,7 @@ static int upstream_add_addr(struct mptcpd_pm *pm,
           Payload (nested):
               Local address family
               Local address
+              Local port (optional)
               Local address ID (optional)
               Flags (optional)
               Network inteface index (optional)
@@ -374,10 +375,19 @@ static int upstream_add_addr(struct mptcpd_pm *pm,
 
         // Types chosen to match MPTCP genl API.
         uint16_t const family = mptcpd_get_addr_family(addr);
+        uint16_t const port   = mptcpd_get_port_number(addr);
+
+        /*
+          The MPTCP_PM_ADDR_FLAG_SIGNAL flag is required when a port
+          is specified.  Make sure it is set.
+        */
+        if (port != 0)
+                flags |= MPTCP_PM_ADDR_FLAG_SIGNAL;
 
         size_t const payload_size =
                 MPTCPD_NLA_ALIGN(family)
                 + MPTCPD_NLA_ALIGN_ADDR(addr)
+                + MPTCPD_NLA_ALIGN_OPT(port)
                 + MPTCPD_NLA_ALIGN_OPT(address_id)
                 + MPTCPD_NLA_ALIGN_OPT(flags)
                 + MPTCPD_NLA_ALIGN_OPT(index);
@@ -394,6 +404,11 @@ static int upstream_add_addr(struct mptcpd_pm *pm,
                         sizeof(family),  // sizeof(uint16_t)
                         &family)
                 && append_addr_attr(msg, addr)
+                && (port == 0 ||
+                    l_genl_msg_append_attr(msg,
+                                           MPTCP_PM_ADDR_ATTR_PORT,
+                                           sizeof(port),  // sizeof(uint16_t)
+                                           &port))
                 && (address_id == 0
                     || l_genl_msg_append_attr(
                             msg,
